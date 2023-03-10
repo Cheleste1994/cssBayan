@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Arial-MT';
+  src: url("../assets/fonts/Arial-MT.woff");
+  /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: 'owfont';
+  src: url('../assets/fonts/owfont-regular.eot?v=1.0.0');
+  src: url('../assets/fonts/owfont-regular.eot?#iefix&v=1.0.0') format('embedded-opentype'),
+    url('../assets/fonts/owfont-regular.woff') format('woff'),
+    url('../assets/fonts/owfont-regular.ttf') format('truetype'),
+    url('../assets/fonts/owfont-regular.svg#owf-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.statusMem{
+font-size: 1.1em;
+}
+
+.mems-name-title{
+font-size: 1.1em;
+}
+
+.header {
+  margin-top: 10vh;
+  border: 1px solid;
+}
+
+.wrapper {
+  margin: 0 30%;
+  width: 600px;
+}
+
+.wrapper-mems{
+  cursor: pointer;
+}
+
+.container-memOne {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.2em solid;
+}
+
+
+.container-memOne:focus .mems-picture-conteiner-one {
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  opacity: 1;
+}
+
+.container-memTwo:focus .mems-picture-conteiner-two {
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  opacity: 1;
+}
+
+.container-memThree:focus .mems-picture-conteiner-three {
+  cursor: pointer;
+  width: 90%;
+  height: 600px;
+  opacity: 1;
+}
+
+.container-memFour:focus .mems-picture-conteiner-four {
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  opacity: 1;
+}
+
+.container-memFive:focus .mems-picture-conteiner-five {
+  cursor: pointer;
+  width: 90%;
+  height: 100%;
+  opacity: 1;
+}
+
+.mems-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2vh auto;
+}
+
+.mems-picture-conteiner-one {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mems-picture-conteiner-two {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mems-picture-conteiner-three {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mems-picture-conteiner-four {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mems-picture-conteiner-five {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.mems-picture-one {
+  object-fit: inherit;
+  width: 100%;
+  height: auto;
+}
+
+.mems-picture-two {
+  object-fit: inherit;
+  width: 100%;
+  height: auto;
+}
+
+.mems-picture-three {
+  object-fit: inherit;
+  width: 100%;
+  height: auto;
+}
+
+.mems-picture-four {
+  object-fit: inherit;
+  width: 100%;
+  height: auto;
+}
+
+.mems-picture-five {
+  object-fit: inherit;
+  width: 100%;
+  height: auto;
+}
