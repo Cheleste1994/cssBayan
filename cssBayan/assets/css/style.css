@@ -27,6 +27,20 @@ body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  font-size: 1.5em;
+  color: rgba(7, 1, 88, 0.8);
+}
+
+.body{
+  background: url(../img/bg-create-light.5c69d7a0.svg) no-repeat;
+  background-attachment: fixed;
+
+}
+
+.css-bayan{
+  display: block;
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0.2);
+  padding-top: 3vh;
 }
 
 .statusMem{
@@ -39,12 +53,18 @@ font-size: 1.1em;
 
 .header {
   margin-top: 10vh;
-  border: 1px solid;
 }
 
+
 .wrapper {
-  margin: 0 30%;
-  width: 600px;
+  margin: 0 auto;
+  padding: 0 5vw;
+  width: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper:last-child{
+padding-bottom: 5vh;
 }
 
 .wrapper-mems{
@@ -55,9 +75,41 @@ font-size: 1.1em;
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-bottom: 0.2em solid;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  outline:none;
 }
 
+.container-memTwo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  outline:none;
+}
+
+.container-memThree {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  outline:none;
+}
+
+.container-memFour {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  outline:none;
+}
+
+.container-memFive {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.1);
+  outline:none;
+}
 
 .container-memOne:focus .mems-picture-conteiner-one {
   cursor: pointer;
