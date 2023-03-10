@@ -34,6 +34,7 @@ body {
 .body {
   background: url(../img/bg-create-light.5c69d7a0.svg) no-repeat;
   background-attachment: fixed;
+  background-size: contain;
 
 }
 
@@ -249,3 +250,94 @@ transform: rotate(0);
   width: 100%;
   height: auto;
 }
+
+/* media */
+
+@media screen  {
+
+  .container-memOne:hover .mems-picture-conteiner-one {
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .container-memOne:hover .mem-closed-one {
+  transform: rotate(0);
+  }
+
+  .container-memTwo:hover .mems-picture-conteiner-two {
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .container-memTwo:hover .mem-closed-two {
+    transform: rotate(0);
+    }
+
+  .container-memThree:hover .mems-picture-conteiner-three {
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .container-memThree:hover .mem-closed-three {
+    transform: rotate(0);
+    }
+
+  .container-memFour:hover .mems-picture-conteiner-four {
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .container-memFour:hover .mem-closed-four {
+    transform: rotate(0);
+    }
+
+  .container-memFive:hover .mems-picture-conteiner-five {
+    cursor: pointer;
+    width: 90%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .container-memFive:hover .mem-closed-five {
+    transform: rotate(0);
+    }
+
+  }
+
+
+
+@media (max-width: 820px) {
+
+body{
+  width: 100%;
+}
+
+.wrapper{
+  width: 90%;
+}
+
+
+}
+
+
+@media (max-width: 450px) {
+
+  body{
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+
+
+  }
