@@ -27,7 +27,7 @@ body {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: calc(1vh + 1.4vw);
   color: rgba(7, 1, 88, 0.3);
 }
 
@@ -115,9 +115,10 @@ body {
 .container-memTwo:focus,
 .container-memThree:focus,
 .container-memFour:focus,
-.container-memFive:focus{
+.container-memFive:focus {
   color: rgba(7, 1, 88, 1);
 }
+
 
 .container-memOne:focus .mems-picture-conteiner-one {
   cursor: pointer;
@@ -263,14 +264,28 @@ body {
 
 /* media */
 
-@media screen {
+@media screen and (max-width: 1921px) and (hover: hover) and (pointer: fine) {
 
   .container-memOne:hover,
   .container-memTwo:hover,
   .container-memThree:hover,
   .container-memFour:hover,
-  .container-memFive:hover{
+  .container-memFive:hover {
     color: rgba(7, 1, 88, 1);
+    transition: all 1s;
+
+  }
+
+
+  .container-memOne:active,
+  .container-memTwo:active,
+  .container-memThree:active,
+  .container-memFour:active,
+  .container-memFive:active {
+    transform: rotate(0.5deg);
+    color: rgb(29, 4, 252);
+    transition: all 0.5s;
+
   }
 
   .container-memOne:hover .mems-picture-conteiner-one {
@@ -332,7 +347,7 @@ body {
 
 
 
-@media (max-width: 820px) {
+@media (max-width: 821px) {
 
   body {
     width: 100%;
